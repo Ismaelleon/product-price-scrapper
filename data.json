@@ -15,7 +15,7 @@
 		"price_class": "price-tag-fraction"
 	},
 	"Walmart": {
-		"url": "https://tiendamia.com/wsearch?wrts=airforce",
+		"url": "https://tiendamia.com/wsearch?wrts={}",
 		"name_class": "item-name",
 		"price_class": "dollar_price"
 	}
