@@ -1,0 +1,22 @@
+{
+	"Amazon": {
+		"url": "https://tiendamia.com/search?amzs={}",
+		"name_class": "item-name",
+		"price_class": "dollar_price"
+	},
+	"Ebay": {
+		"url": "https://tiendamia.com/e-search?ebays={}",
+		"name_class": "item-name",
+		"price_class": "dollar_price"
+	},
+	"Mercado Libre": {
+		"url": "https://listado.mercadolibre.com.uy/{}_OrderId_PRICE_NoIndex_True",
+		"name_class": "ui-search-item__title",
+		"price_class": "price-tag-fraction"
+	},
+	"Walmart": {
+		"url": "https://tiendamia.com/wsearch?wrts=airforce",
+		"name_class": "item-name",
+		"price_class": "dollar_price"
+	}
+}
