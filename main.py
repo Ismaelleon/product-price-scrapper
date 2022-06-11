@@ -18,6 +18,10 @@ def main ():
 		product_name = soup.find(class_=data['name_class'])
 		product_price = soup.find(class_=data['price_class'])
 
+		if website == 'Walmart':
+			product_name = soup.find_all(class_=data['name_class'])[1]
+			product_price = soup.find_all(class_=data['price_class'])[1]
+
 		if product_name != None and product_price != None:
 			product_name = product_name.get_text().replace('\n', '')
 			product_price = product_price.get_text()
